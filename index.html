@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-widht, initial-scale=1">
+    <link rel="shortcut icon" href="imagens/247.ico" />
+    <title>24/7s</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <meta name="google-site-verification" content="5ay23HWKCPeOldMnEGKhVKHGmnc4WoD1xwH5V5ei3vA" />
+<header class="cabecalho">
+    <a href="index.html" ><h1 class="logo">Classroom</h1></a>
+     <button class = "btn-menu"><img src = "imagens/menu.svg"></button>
+        <nav class="menu"><button class = "btn-close"><img src = "imagens/exit.svg"></button>
+                <ul>
+                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#quemsomos"><i class="fas fa-users"></i> Get to Know Us</a></li>
+                    <li><a href="#aplicativo"><i class="fas fa-info"></i> Our Product</a></li>
+                    <li><a href="#contato"><i class="fas fa-comments"></i> Contact Us</a></li>
+                </ul>
+        </nav>
+</header>
+</head>
+<body>
+    <div class="banner" >
+        <div class="title-banner">
+            <h2>Hello!</h2>
+            <h3>We are from 24/7 Team. <br>In this website, we will describe about our android mobile application! And here we go! </h3>
+        </div>
+    </div>
+<main class="principal" id="quemsomos">
+<article class="quemsomos" >
+    <h2>Get to Know Us</h2>
+    <img src = "imagens/group.jpeg" id = "mypict"><br>
+    <p>Hello! Let's get to know our team! </p>
+    <br>
+    <p>24/7 Group consists of 3 members :<br><br>
+    1. Ahmad Musthafa Masyhur<br>
+    2. Annisa Divayu Andriyani<br>
+    3. Nur Sakinah</p>
+    <br>
+     </article>
+</main>
+
+<main class="principal2" id="aplicativo">
+<article class="aplicativo">
+    <h2>EveryCoffee</h2>
+    <img src = "imagens/everycoffee.png"><br>
+    <p>EveryCoffee is an Android Mobile Application that developed by 24/7. It's a coffee delivery application. This application can be use by the Admin and the Customer.</p><br>
+    <p></p>
+   <br>
+    <p> Here the link to the Project!</p>
+    <a href="https://github.com/nursakinah24/EveryCoffee.git" download>
+        <button class="download-btn"><i class="fas fa-download"></i> Project Link </button></a></a>
+    </article>
+</main>
+
+
+
+<!--Rodape-->
+<footer class="rodape" id ="contato">
+    <h2>Contact Us</h2>
+    <div class="social">
+       <br>
+       <a href="mailto:everycoffeeproject@gmail.com" target="_blank" class="tooltip" data-title="Contact us"><img src = "imagens/gmail.png"></a><br>
+   </div>
+    <h1 class="copyright">Copyright © 24/7 EveryCoffee</h1>
+</footer>
+
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script>
+$(".btn-menu").click(function(){
+    $(".btn-menu").hide();
+    $(".menu").show();
+});
+$(".btn-close").click(function(){
+    $(".menu").hide();
+    $(".btn-menu").show();
+});
+</script>
+<script src="script/script.js"></script></html>
+ </body>
+ </html>
